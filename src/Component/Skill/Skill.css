@@ -1,0 +1,63 @@
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.title{
+    position: relative;
+}
+.title h1{
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title img{
+    position: absolute;
+    bottom: -200px;
+    right: -295px;
+    z-index: -1;
+}
+.skill__section{
+    display: flex;
+    gap: 80px;
+}
+.skill__left img{
+    display: flex;
+    height: 450px;
+    width: 700px;
+    margin-left: -290px;
+}
+.skill__text{
+    gap: 20px;
+}
+.skill__text > h3{
+    display: flex;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+    gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.css-eglki6-MuiLinearProgress-root {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 4px;
+    z-index: 0;
+    background-color: rgb(56, 124, 191);
+    width: 400px;
+    margin-right: -330px;
+
+.css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(166, 46, 222) ;
+    border-radius: 10px;
+}
+}
